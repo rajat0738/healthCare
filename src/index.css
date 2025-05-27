@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  background-color: #e2ebf8;
+  font-family: sans-serif;
+}
+
+#root {
+  border: 0.5rem solid white;
+  background: linear-gradient(
+    to right,
+    #f6faff 0%,
+    #f6faff 15%,
+    #ffffff 15%,
+    #ffffff 60%,
+    #f6faff 60%,
+    #f6faff 100%
+  );
+  border-radius: 2rem;
+}

@@ -1,0 +1,78 @@
+.activity {
+  margin-top: 25px;
+}
+.activity-card {
+  background-color: #f8fbff;
+  border-radius: 16px;
+  padding: 20px;
+  font-family: sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activity-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.activity-header span {
+  font-size: 12px;
+  color: #999;
+}
+
+.activity-graph {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.day {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  min-width: 38px;
+}
+
+.bar-group {
+  position: relative;
+  width: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2px;
+}
+
+.bar {
+  width: 4px;
+  border-radius: 2px;
+}
+
+.gray {
+  background-color: #e0e0e0;
+}
+
+.cyan {
+  background-color: #00d2ff;
+}
+
+.purple {
+  background-color: #5a4fcf;
+}
+
+.label {
+  font-size: 11px;
+  color: #666;
+  margin-top: 6px;
+  text-align: center;
+}

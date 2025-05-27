@@ -1,0 +1,46 @@
+.anatomy {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  background: #f6faff;
+  border-radius: 10px;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 6px 12px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip.heart {
+  top: 37%;
+  left: 37%;
+  transform: translateX(-50%);
+  background-color: #372fa4;
+}
+
+.tooltip.legs {
+  bottom: 36%;
+  left: 19%;
+  background-color: #00b4d8;
+}
+.scan {
+  position: absolute;
+}
+.scan.heart {
+  top: 35%;
+  left: 29.5%;
+}
+
+.scan.legs {
+  bottom: 34%;
+  left: 26.5%;
+}
+.magnify {
+  position: absolute;
+  top: 27%;
+  left: 37%;
+}

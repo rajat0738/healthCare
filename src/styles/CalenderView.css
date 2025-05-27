@@ -1,0 +1,119 @@
+.appts {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", sans-serif;
+}
+.appt-card {
+  width: auto;
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.appt-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+.appt-head p {
+  margin-top: 10px;
+}
+.appt-time {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.appt-doctor {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* Calendar */
+.calendar {
+  font-family: sans-serif;
+  background: #f7f9ff;
+  padding: 20px;
+  border-radius: 12px;
+  width: fit-content;
+}
+.cal-head {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #372fa4;
+}
+
+.arrows {
+  display: flex;
+  margin-left: 5px;
+  border: none;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.days {
+  display: flex;
+}
+.day-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day-col.active {
+  background-color: #eef5ff;
+  border-radius: 12px;
+}
+
+.slot.selected {
+  background-color: #0f52ba !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.slot {
+  color: #333;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.highlight-dark {
+  background-color: #0f52ba;
+  color: white !important;
+  font-weight: bold;
+}
+
+.highlight-dull {
+  background-color: #b6d1fd;
+  color: white !important;
+  font-weight: 500;
+}
+
+.day-label {
+  text-align: center;
+  padding: 10px;
+  width: 50px;
+  border-radius: 8px;
+}
+
+.active-day {
+  background: #eef5ff;
+  color: #0f52ba;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.slots {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}

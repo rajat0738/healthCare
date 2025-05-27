@@ -1,0 +1,39 @@
+.sidebar {
+  width: 15%;
+
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  color: #bfc3c8;
+  margin-block: 0;
+}
+.sidebar li {
+  padding-block: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.sidebar p {
+  color: #bfc3c8;
+  margin-block: 0;
+  font-size: small;
+}
+.menu-btn {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+}
+.menu-btn.active {
+  color: #372fa4;
+}
+
+.list {
+  margin-top: 2rem;
+}

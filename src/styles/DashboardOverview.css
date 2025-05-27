@@ -1,0 +1,10 @@
+.overview-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-heading {
+  color: #372fa4;
+  display: flex;
+  justify-content: space-between;
+}

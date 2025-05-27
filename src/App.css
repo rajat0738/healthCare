@@ -1,0 +1,11 @@
+/* Content */
+.main-content {
+  padding: 20px 35px 20px 45px;
+}
+.all-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  gap: 2rem;
+}
