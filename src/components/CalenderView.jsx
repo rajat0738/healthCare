@@ -6,7 +6,7 @@ import {
   currentSchedule,
   schedule,
   specialSlots,
-} from "../data/CalenderData";
+} from "../data/calendarData";
 
 const CalenderView = () => {
   const chosenSlot = { day: 1, time: "09:00" };
