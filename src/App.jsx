@@ -1,7 +1,7 @@
 import "./App.css";
 import DashboardMainContent from "./components/DashboardMainContent";
 import Header from "./components/Header";
-import Sidebar from "./components/sidebar";
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
