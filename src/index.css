@@ -30,6 +30,7 @@ body {
       #ffffff 100%
     );
   }
+
   .dashboard-main {
     flex-direction: column;
   }
@@ -105,6 +106,9 @@ body {
       #f6faff 60%,
       #f6faff 100%
     );
+  }
+  .all-content {
+    gap: 0 !important;
   }
   .main-content {
     padding: 0 !important
