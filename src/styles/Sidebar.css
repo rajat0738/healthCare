@@ -1,8 +1,9 @@
 .sidebar {
-  width: 15%;
-
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar ul {
@@ -23,6 +24,8 @@
   font-size: small;
 }
 .menu-btn {
+  color: #bfc3c8 !important;
+
   all: unset;
   cursor: pointer;
   display: flex;
@@ -31,9 +34,30 @@
   padding: 8px 12px;
 }
 .menu-btn.active {
-  color: #372fa4;
+  color: #372fa4 !important;
 }
 
 .list {
   margin-top: 2rem;
+}
+
+.settings {
+  margin-top: auto;
+}
+
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 6rem;
+  left: 2rem;
+  z-index: 1000;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.sidebar-toggle {
+  display: none;
 }

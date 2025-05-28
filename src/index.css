@@ -127,8 +127,44 @@ body {
   .search-container {
     width: 50vw !important;
   }
-  .main-sidebar {
-    display: none;
+  .sidebar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    transform: translateX(-100%);
+    z-index: 999;
+    width: 250px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar ul {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+  }
+
+  .hamburger {
+    display: block !important;
+  }
+  .sidebar-nav {
+    margin-top: 7rem;
+    margin-left: 2rem;
+  }
+  .sidebar-toggle:checked ~ .sidebar {
+    transform: translateX(0);
+  }
+  .settings {
+    margin-bottom: 1rem;
+  }
+  .sidebar-list {
+    display: flex;
+    flex-direction: column;
   }
   .anatomy {
     position: relative;
@@ -250,19 +286,6 @@ body {
   }
   .upcoming-schedule {
     padding: 20px !important;
-  }
-  .sidebar {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 0;
-    padding: 1rem 0;
-  }
-
-  .sidebar ul {
-    display: flex;
-    gap: 1rem;
-    overflow-x: auto;
   }
 
   .dashboard-heading {

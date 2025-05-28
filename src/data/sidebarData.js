@@ -5,6 +5,7 @@ import {
   LayoutDashboard,
   MessageCircleMore,
   Phone,
+
   SquarePlus,
 } from "lucide-react";
 export const menuItems = [
@@ -25,4 +26,5 @@ export const menuItems = [
       { label: "Support", icon: Phone },
     ],
   },
+  
 ];
