@@ -4,6 +4,10 @@
   border-radius: 10px;
 }
 
+.anatomy-image {
+  position: relative;
+}
+
 .tooltip {
   position: absolute;
   padding: 6px 12px;

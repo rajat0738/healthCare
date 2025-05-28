@@ -17,8 +17,8 @@ const CalenderView = () => {
         <div className="cal-head">
           <span>October 2021</span>
           <div className="arrows">
-            <ArrowLeft />
-            <ArrowRight />
+            <ArrowLeft className="cal-arrow" />
+            <ArrowRight className="cal-arrow" />
           </div>
         </div>
         <div className="days">

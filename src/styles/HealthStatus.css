@@ -44,4 +44,8 @@
 
 .details {
   color: #372fa4;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 2rem;
 }
