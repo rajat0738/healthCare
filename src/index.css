@@ -239,6 +239,7 @@ body {
   }
   .appts {
     padding: 0 20px !important;
+    width: auto !important;
   }
   .appt-card {
     width: 100% !important;
